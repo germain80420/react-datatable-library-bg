@@ -1,0 +1,68 @@
+.container{
+    width: fit-content;
+    margin: auto;
+}
+form{
+    justify-content: center;
+    margin: auto;
+    width: fit-content;
+}
+.inputSearch{
+    display: flex;
+    flex-direction: column;
+}
+.controls-pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table {
+    border-collapse: collapse;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    margin: auto;
+  }
+  
+td{
+    padding: 20px;
+
+}
+tr{
+    border-bottom: 2px solid black;
+
+}
+th:hover{
+    cursor: pointer;
+}
+thead{
+    background-color: aquamarine;
+}
+
+.line-color-1{
+    background-color: #f0e6e6;
+}
+.line-color-2{
+    background-color:#ffffff;
+}
+
+.line-color-2:hover, .line-color-1:hover{
+    background-color: #f0e6e6de;
+
+}
+.pagination{
+    display: flex;
+    position: relative;
+}
+.infos-pagination{
+
+    display: flex;
+    position: absolute;
+    right: 0px;
+}
+
+
+.infos-results{
+    position: absolute;
+    left: 0px;
+}

@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  display: flex;
+  justify-content: center;  
+  text-align: center;
+  height: 100vh; /* 100% de la hauteur de la fenêtre visible */
+  background-attachment: fixed; /* Fixe le fond pendant le scroll */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
